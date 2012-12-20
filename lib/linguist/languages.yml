@@ -105,12 +105,6 @@ Assembly:
   extensions:
   - .asm
 
-Augeas:
-  type: programming
-  primary_extension: .aug
-  extensions:
-  - .aug
-
 AutoHotkey:
   type: programming
   lexer: autohotkey
@@ -346,16 +340,6 @@ Delphi:
   extensions:
   - .lpr
   - .pas
-
-DCPU-16 ASM:
-  type: programming
-  lexer: dasm16
-  primary_extension: .dasm16
-  extensions:
-  - .dasm
-  - .dasm16
-  aliases:
-  - dasm16
 
 Diff:
   primary_extension: .diff
@@ -976,15 +960,6 @@ Prolog:
   extensions:
   - .pro
   - .prolog
-
-Puppet:
-  type: programming
-  color: "#cc5555"
-  primary_extension: .pp
-  extensions:
-  - .pp
-  filenames:
-  - Modulefile
 
 Pure Data:
   type: programming
